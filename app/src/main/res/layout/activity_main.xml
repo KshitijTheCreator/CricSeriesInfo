@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SeriesName"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:gravity="center_horizontal"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="Ireland tour of England ODI Series, 2023"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/StartDate"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:padding="10dp"
+        android:gravity="start"
+        android:text="2023-09-20"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/matches"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="3"
+        android:textSize="30sp" />
+
+</LinearLayout>
